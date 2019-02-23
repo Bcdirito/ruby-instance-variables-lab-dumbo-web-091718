@@ -1,6 +1,4 @@
 class Dog
-  def name=(name)
-    @this_dogs_name = name
-  end
+  attr_accessor :name
 end
 
